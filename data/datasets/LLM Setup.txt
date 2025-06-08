@@ -1,0 +1,20 @@
+anaconda3
+torch
+spacy
+numpy
+pandas
+
+
+**Reminder to research on how to create an environment**
+
+pytorch command:
+pip3 install torch torchtext torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126
+
+
+
+spacy command:
+python -m venv .env
+.env\Scripts\activate
+pip install -U pip setuptools wheel
+pip install -U 'spacy[cuda12x]'
+python -m spacy download en_core_web_sm
